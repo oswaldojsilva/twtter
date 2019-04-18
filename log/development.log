@@ -2768,3 +2768,789 @@ FOREIGN KEY ("user_id")
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /usr/local/rvm/gems/ruby-2.4.1/bin/rake:23
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 152.15.113.10 at 2019-04-17 18:32:17 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.8ms)
+  Rendered layouts/_nav.html.erb (12.3ms)
+Completed 200 OK in 55ms (Views: 52.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-17 18:32:18 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (4.0ms)
+Completed 200 OK in 98ms (Views: 96.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-17 18:32:19 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-17 18:32:21 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (5.3ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-17 18:32:22 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/edit" for 152.15.113.10 at 2019-04-17 18:32:25 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 62ms (Views: 58.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/hotdang" for 152.15.113.10 at 2019-04-17 18:32:28 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"hotdang"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hotdang"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (6.6ms)
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/user/hotdang" for 152.15.113.10 at 2019-04-17 18:32:34 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"hotdang"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hotdang"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-17 18:32:38 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 15:46:15 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (14.3ms)
+Completed 200 OK in 342ms (Views: 327.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 15:46:20 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 15:46:33 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/hotdang" for 152.15.113.10 at 2019-04-18 15:46:39 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"hotdang"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "hotdang"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 70ms (Views: 65.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 15:46:42 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 15:46:46 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 15:46:47 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 15:46:47 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/users/sign_out" for 152.15.113.10 at 2019-04-18 15:48:34 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"S2d2cVM/+rxPnq5eTE8kWpy6NmwOBvGlHWsCNk+9QwZGfoAQlbNUOeWFuuqglKPzexcJnnFXgQB2lg9wChcl0w=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+Redirected to https://212d8765827249e9a30cf097c22334b4.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 14ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 15:48:34 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (5.3ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 152.15.113.10 at 2019-04-18 15:48:37 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 152.15.113.10 at 2019-04-18 15:48:39 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_nav_guest.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (1.9ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 152.15.113.10 at 2019-04-18 15:53:13 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AegF4TEfvknI9PfhfzrEUbkc+Lw8mZjH++mKkd4TqYBheepLP2Sf0CfsWvIbHoj/4vpPNzXhe8A8L4yTAeCf0A==", "user"=>{"username"=>"username", "email"=>"email@email", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "email@email"], ["LIMIT", 1]]
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["email", "email@email"], ["encrypted_password", "$2a$11$CdUPchrXVHkuI/bt43goIOCrijiHHhTRuE.Fl6O9RIbgpI3KulgxC"], ["created_at", "2019-04-18 15:53:13.633908"], ["updated_at", "2019-04-18 15:53:13.633908"], ["username", "username"]]
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/gems/2.4.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13
+Redirected to https://212d8765827249e9a30cf097c22334b4.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 181ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 15:53:13 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 15:53:18 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (11.4ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 15:53:24 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 16:02:18 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (12.0ms)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 16:02:21 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:02:29 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/models/post.rb:6:in `<class:Post>'
+app/models/post.rb:1:in `<main>'
+app/controllers/pages_controller.rb:17:in `profile'
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:09:24 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:19: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+er.append=( for @p in @posts );@output_buffer.safe_append='
+                              ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;          end 
+                      ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/pages/profile.html.erb:19: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+app/views/pages/profile.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/profile.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/profile.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:10:59 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:19: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+er.append=( for @p in @posts );@output_buffer.safe_append='
+                              ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/pages/profile.html.erb:19: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+app/views/pages/profile.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+app/views/pages/profile.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/profile.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:12:10 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:19: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+er.append=( for @p in @posts );@output_buffer.safe_append='
+                              ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:25: syntax error, unexpected keyword_end
+ze;@output_buffer.append=( end );@output_buffer.safe_append=
+                              ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/ec2-user/environment/blog-project-dev/app/views/pages/profile.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/pages/profile.html.erb:19: syntax error, unexpected ')', expecting keyword_do_cond or ';' or '\n'
+app/views/pages/profile.html.erb:25: syntax error, unexpected keyword_end
+app/views/pages/profile.html.erb:48: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/profile.html.erb:50: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:14:28 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:15:35 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:15:36 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:         </div>
+     8:     </div>
+     9:      <div class = "col-xs-6">
+    10:         <% for @p in @posts %>
+    11:         <div class="panel panel-default">
+    12:             <div class="panel-body">
+    13:                 <p><% @p.content %></p>
+  
+app/views/pages/home.html.erb:10:in `_app_views_pages_home_html_erb__424057480248772130_69831674406280'
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:17:17 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (12.1ms)
+Completed 200 OK in 52ms (Views: 46.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:34 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (3.6ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:43 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:44 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:45 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (3.8ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:46 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (5.5ms)
+Completed 200 OK in 83ms (Views: 80.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:46 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 58ms (Views: 55.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:53 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 152.15.113.10 at 2019-04-18 16:19:54 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:56 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:56 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:19:59 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.3ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:20:01 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:24:38 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (11.6ms)
+Completed 200 OK in 61ms (Views: 55.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pages/home" for 152.15.113.10 at 2019-04-18 16:24:42 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:24:44 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 5) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:24:45 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 5) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.5ms)
+Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:24:46 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 5) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (4.0ms)
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/user/username" for 152.15.113.10 at 2019-04-18 16:24:47 +0000
+Cannot render console from 152.15.113.10! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"username"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "username"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:18
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 5) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.4ms)
+
+
