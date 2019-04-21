@@ -1,2 +1,43 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<% if !user_signed_in? #if the user is not signed in then %>
+    <style>
+        html {
+            background: linear-gradient(
+            rgba(0,0,0, 0.5),
+            rgba(0,0,0, 0.5)
+            ),url("/bg.jpg") no-repeat center center fixed
+            
+            ; /* only display one image, centered, and the user cant scroll past */
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            }
+            h1 {
+                color: green;
+                font-weight: bold;
+            }
+            .container-index {
+                margin-right: 22%;
+                margin-left: 15%;
+            }
+            .text {
+                color: green;
+                font-weight: 300;
+                font-size: 150%;
+            }
+    </style>
+
+    <div class="container-index">
+        <h1>Welcome to Twtter.</h1>
+        <p class-"text">
+            Connect with your peers from UNCC! 
+            Made by your fellow students, 
+            for your fellow students. 
+        </p>
+    </div>
+    
+<%else #if the user is signed in then %>
+
+Signed In
+
+<% end %>
