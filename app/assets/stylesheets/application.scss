@@ -24,4 +24,28 @@ body {
 .navbar-brand{
     position: absolute;
     left: 50%;
+    margin-right: 25px !important;
+    display: block;
+}
+.post-panel{
+    margin: -5px;
+}
+.post-title{
+    text-align: left;
+    margin-left: 15px;
+}
+.post-content{
+    text-align: left;
+    margin-left: 15px;
+}
+.post-links{
+    
+}
+
+.post-owner{
+    color: black;
+    font-weight: bold;
+}
+.post-time{
+    opacity: 0.65;
 }
