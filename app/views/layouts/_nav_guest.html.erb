@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default">
-  <div class ="containter-fluid containter">
+  <div class ="container-fluid container">
     <div class='navbar-header'>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar"></span>
@@ -10,8 +10,8 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="navbar-nav nav">
-        <li><a href="/pages/home">Home</a></li>
-        <li><a href="/pages/home">Moments</a></li>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/home">Moments</a></li>
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
@@ -21,13 +21,13 @@
           <ul class="dropdown-menu">
             <li><a href="#">Help</a></li>
             <li role="seperator" class="divider"></li>
-            <li <% link_to('Sign Up', new_user_registration_path) %>></li>
+            <li> <%= link_to('Sign Up', new_user_registration_path) %></li>
             <li role="seperator" class="divider"></li>
-            <li <% link_to('Sign In', new_user_session_path) %>></li>
+            <li> <%= link_to('Sign In', new_user_session_path) %> </li>
         </ul>
         
       </li>
       </ul>
     </div><!--/.navbar-collapse -->
-  </div><!--/.containter-fluid -->
+  </div><!--/.container-fluid -->
 </nav>

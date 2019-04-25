@@ -13,7 +13,7 @@
             background-size: cover;
             }
             h1 {
-                color: green;
+                color: white;
                 font-weight: bold;
             }
             .container-index {
@@ -21,19 +21,43 @@
                 margin-left: 15%;
             }
             .text {
-                color: green;
+                color: white;
                 font-weight: 300;
                 font-size: 150%;
             }
+            .log-in {
+                float: right;
+                width: 250px;
+                height: 150px;
+            }
+            .sign-up {
+                float:right;
+                width: 250px;
+                height: 250px;
+            }
     </style>
 
-    <div class="container-index">
+    <div class="container-index row">
+        <div class="col-sm-6">
         <h1>Welcome to Twtter.</h1>
-        <p class-"text">
-            Connect with your peers from UNCC! 
-            Made by your fellow students, 
-            for your fellow students. 
+        <p class="text">
+            Connect with your peers from UNCC! Made by <br>
+            your fellow students, for your fellow students.<br>
+            Connect with alumni, organize events, and see<br>
+            what your favorite people are doing!<br>
         </p>
+        </div>
+        <div class="col-small-6">
+            <div class="log-in panel">
+            
+            </div>
+            <div class="sign-up panel">
+                
+            </div>
+        </div>
+        
+        
+        
     </div>
     
 <%else #if the user is signed in then %>
